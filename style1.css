@@ -1,0 +1,315 @@
+.btn {
+    color: white;
+    border: solid white;
+}
+
+.navbar-brand img {
+    width: 130px;
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    /* color: white; */
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+
+
+* {
+    margin: 0px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.grand_parent {
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    background: #dfe6e9;
+    color: #fff;
+}
+
+.child h1 {
+    font-size: 4rem;
+    padding: 20px 0;
+    text-align: center;
+    color: #000;
+}
+
+p {
+    text-align: center;
+}
+
+.parents {
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+}
+
+.child {
+    border-radius: 5px;
+    text-align: center;
+    height: 400px;
+    background: #fafafa;
+    box-shadow: 0 0 20px #232525;
+    border: 1px solid #ffce13;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    /* flex:1 1 200px; */
+    margin: 20px;
+}
+
+.child img {
+    margin-top: 20px;
+    border: 5px solid #ffce13;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.child2 {
+    height: 400px;
+    background-color: rgb(241, 245, 244);
+    margin-top: -358px;
+    padding-top: 0px;
+    -ms-transform-origin-z: 100;
+    position: relative;
+    top: 0;
+    display: none;
+}
+
+.child2 p {
+    color: #000;
+    padding: 15px;
+}
+
+.child h2 {
+    font-size: large;
+    margin-top: 20px;
+    color: #000;
+}
+
+.child h3 {
+    font-size: large;
+    margin-top: 20px;
+    color: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* .child:first-child {
+            background: #ffbe76;
+        }
+
+        .child:last-child {
+            background: #ff7979;
+        } */
+
+@media (max-width: 768px) {
+    .grand_parent {
+        height: auto;
+    }
+}
+@media (max-width: 1200px) {
+    .king img{
+        display: none;
+    }
+}
+
+@media (max-width: 1300px) {
+    .grand_parent {
+        height: auto;
+    }
+}
+
+@media (max-width: 1400px) {
+    .grand_parent {
+        height: auto;
+    }
+
+    .end {
+        height: auto;
+        flex-wrap: wrap;
+        padding-bottom: 3vh;
+    }
+
+    .li1 {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 200px;
+    }
+
+    .li1 ul li {
+        display: block;
+    }
+}
+
+.blank {
+    width: 100vw;
+    height: 40vh;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+.end {
+    padding-left: 150px;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background: #252524;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+
+}
+
+.li1-2 {
+    margin-top: -33px;
+    padding-right: 50px;
+
+}
+
+.li1-3 {
+    padding-right: 80px;
+}
+
+.li1-3 ul li {
+    transition: transform 250ms;
+}
+
+.li1-3 ul li a:hover {
+    color: aqua;
+}
+
+.li1-2 ul li a:hover {
+    color: aqua;
+}
+
+.li1-2 ul li {
+    transition: transform 250ms;
+}
+
+.li1-3 ul li:hover {
+
+    transform: translatex(10px);
+}
+
+.li1-2 ul li:hover {
+    transform: translatex(10px);
+}
+
+.li1 ul {
+    list-style: none;
+    padding-top: 0px;
+}
+
+.li1 ul li {
+    padding-top: 15px;
+    /* transition: transform 250ms; */
+}
+
+.li1 h1 {
+    margin-top: -5px;
+    margin-bottom: -5px;
+    color: yellow;
+}
+
+.li1 ul li a {
+    text-decoration: none;
+    font-size: large;
+    padding-top: 20px;
+    color: white;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+@keyframes ani {
+
+    /* 0% { margin-left: 10px;} */
+    0% {
+        margin-left: 20px;
+    }
+}
+
+.ion {
+    color: white;
+    margin-right: 10px;
+}
+
+.cr {
+    width: 100vw;
+    height: 53px;
+    color: aliceblue;
+    /* background-color: red; */
+    background-color: #252524;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.cr h3 {
+    font-size: large;
+    padding-top: 15px;
+}
+
+.li-4 .wifi {
+    margin-left: 10px;
+}
+
+.li-4 i {
+    color: white;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.li-4 h1:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.king {
+    box-sizing: border-box;
+    margin-bottom: 140px;
+    position: absolute;
+    right: 1vw;
+}
+
+.king img {
+    margin-top: 50px;
+    width: 300px;
+    margin-left: 20vw;
+    /* padding-bottom: 140px; */
+    box-sizing: border-box;
+    /* display: none; */
+}
